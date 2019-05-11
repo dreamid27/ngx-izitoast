@@ -3,7 +3,7 @@
 Elegant, responsive, flexible and lightweight notification plugin implemented for angular 2 of [iziToast](https://github.com/dolce/iziToast), 
 This is not originally one, i'm just updated the option and re-publish, because the previous publisher unactive.
 
-for see the original see here https://github.com/plauzul/ngx-izitoast
+for see the original see here https://github.com/plauzul/ng2-izitoast
 
 [**izitoast**.marcelodolce.com](http://izitoast.marcelodolce.com)
 
