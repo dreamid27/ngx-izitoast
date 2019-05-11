@@ -1,6 +1,6 @@
 {
   "name": "ngx-izitoast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Elegant, responsive, flexible and lightweight notification plugin implemented for angular 2 of iziToast",
   "main": "./bundles/ngx-izitoast.umd.js",
   "module": "./ngx-izitoast.es5.js",
