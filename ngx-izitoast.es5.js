@@ -4,8 +4,8 @@ import { Injectable, NgModule } from '@angular/core';
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var Ng2IzitoastService = (function () {
-    function Ng2IzitoastService() {
+var NgxIzitoastService = (function () {
+    function NgxIzitoastService() {
         this.toastConfigQuestion = {
             timeout: 20000,
             close: false,
@@ -36,7 +36,7 @@ var Ng2IzitoastService = (function () {
      * @param {?} data
      * @return {?}
      */
-    Ng2IzitoastService.prototype.show = /**
+    NgxIzitoastService.prototype.show = /**
      * @param {?} data
      * @return {?}
      */
@@ -48,7 +48,7 @@ var Ng2IzitoastService = (function () {
      * @param {?} data
      * @return {?}
      */
-    Ng2IzitoastService.prototype.info = /**
+    NgxIzitoastService.prototype.info = /**
      * @param {?} data
      * @return {?}
      */
@@ -60,7 +60,7 @@ var Ng2IzitoastService = (function () {
      * @param {?} data
      * @return {?}
      */
-    Ng2IzitoastService.prototype.success = /**
+    NgxIzitoastService.prototype.success = /**
      * @param {?} data
      * @return {?}
      */
@@ -72,7 +72,7 @@ var Ng2IzitoastService = (function () {
      * @param {?} data
      * @return {?}
      */
-    Ng2IzitoastService.prototype.warning = /**
+    NgxIzitoastService.prototype.warning = /**
      * @param {?} data
      * @return {?}
      */
@@ -84,7 +84,7 @@ var Ng2IzitoastService = (function () {
      * @param {?} data
      * @return {?}
      */
-    Ng2IzitoastService.prototype.error = /**
+    NgxIzitoastService.prototype.error = /**
      * @param {?} data
      * @return {?}
      */
@@ -96,7 +96,7 @@ var Ng2IzitoastService = (function () {
      * @param {?} data
      * @return {?}
      */
-    Ng2IzitoastService.prototype.question = /**
+    NgxIzitoastService.prototype.question = /**
      * @param {?} data
      * @return {?}
      */
@@ -109,7 +109,7 @@ var Ng2IzitoastService = (function () {
      * @param {?} iziToastClass
      * @return {?}
      */
-    Ng2IzitoastService.prototype.progress = /**
+    NgxIzitoastService.prototype.progress = /**
      * @param {?} iziToastClass
      * @return {?}
      */
@@ -143,7 +143,7 @@ var Ng2IzitoastService = (function () {
      * @param {?=} options
      * @return {?}
      */
-    Ng2IzitoastService.prototype.hide = /**
+    NgxIzitoastService.prototype.hide = /**
      * @param {?} iziToastClass
      * @param {?=} options
      * @return {?}
@@ -156,7 +156,7 @@ var Ng2IzitoastService = (function () {
     /**
      * @return {?}
      */
-    Ng2IzitoastService.prototype.destroy = /**
+    NgxIzitoastService.prototype.destroy = /**
      * @return {?}
      */
     function () {
@@ -166,7 +166,7 @@ var Ng2IzitoastService = (function () {
      * @param {?} data
      * @return {?}
      */
-    Ng2IzitoastService.prototype.settings = /**
+    NgxIzitoastService.prototype.settings = /**
      * @param {?} data
      * @return {?}
      */
@@ -174,29 +174,29 @@ var Ng2IzitoastService = (function () {
         iziToast.settings(data);
         return data;
     };
-    Ng2IzitoastService.decorators = [
+    NgxIzitoastService.decorators = [
         { type: Injectable },
     ];
     /** @nocollapse */
-    Ng2IzitoastService.ctorParameters = function () { return []; };
-    return Ng2IzitoastService;
+    NgxIzitoastService.ctorParameters = function () { return []; };
+    return NgxIzitoastService;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var Ng2IziToastModule = (function () {
-    function Ng2IziToastModule() {
+var NgxIziToastModule = (function () {
+    function NgxIziToastModule() {
     }
-    Ng2IziToastModule.decorators = [
+    NgxIziToastModule.decorators = [
         { type: NgModule, args: [{
-                    providers: [Ng2IzitoastService]
+                    providers: [NgxIzitoastService]
                 },] },
     ];
     /** @nocollapse */
-    Ng2IziToastModule.ctorParameters = function () { return []; };
-    return Ng2IziToastModule;
+    NgxIziToastModule.ctorParameters = function () { return []; };
+    return NgxIziToastModule;
 }());
 
 /**
@@ -212,5 +212,5 @@ var Ng2IziToastModule = (function () {
  * Generated bundle index. Do not edit.
  */
 
-export { Ng2IzitoastService, Ng2IziToastModule };
-//# sourceMappingURL=ng2-izitoast.es5.js.map
+export { NgxIzitoastService, NgxIziToastModule };
+//# sourceMappingURL=ngx-izitoast.es5.js.map

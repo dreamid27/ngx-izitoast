@@ -1,2 +1,2 @@
-export { Ng2IzitoastService } from './src/service/ng2-izitoast.service';
-export { Ng2IziToastModule } from './src/module';
+export { NgxIzitoastService } from './src/service/ngx-izitoast.service';
+export { NgxIziToastModule } from './src/module';

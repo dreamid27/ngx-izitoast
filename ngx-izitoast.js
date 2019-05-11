@@ -4,7 +4,7 @@ import { Injectable, NgModule } from '@angular/core';
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-class Ng2IzitoastService {
+class NgxIzitoastService {
     constructor() {
         this.toastConfigQuestion = {
             timeout: 20000,
@@ -134,25 +134,25 @@ class Ng2IzitoastService {
         return data;
     }
 }
-Ng2IzitoastService.decorators = [
+NgxIzitoastService.decorators = [
     { type: Injectable },
 ];
 /** @nocollapse */
-Ng2IzitoastService.ctorParameters = () => [];
+NgxIzitoastService.ctorParameters = () => [];
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-class Ng2IziToastModule {
+class NgxIziToastModule {
 }
-Ng2IziToastModule.decorators = [
+NgxIziToastModule.decorators = [
     { type: NgModule, args: [{
-                providers: [Ng2IzitoastService]
+                providers: [NgxIzitoastService]
             },] },
 ];
 /** @nocollapse */
-Ng2IziToastModule.ctorParameters = () => [];
+NgxIziToastModule.ctorParameters = () => [];
 
 /**
  * @fileoverview added by tsickle
@@ -167,5 +167,5 @@ Ng2IziToastModule.ctorParameters = () => [];
  * Generated bundle index. Do not edit.
  */
 
-export { Ng2IzitoastService, Ng2IziToastModule };
-//# sourceMappingURL=ng2-izitoast.js.map
+export { NgxIzitoastService, NgxIziToastModule };
+//# sourceMappingURL=ngx-izitoast.js.map

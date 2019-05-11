@@ -1,6 +1,9 @@
-# Ng2Izitoast
+# NgxIzitoast
 
-Elegant, responsive, flexible and lightweight notification plugin implemented for angular 2 of [iziToast](https://github.com/dolce/iziToast)
+Elegant, responsive, flexible and lightweight notification plugin implemented for angular 2 of [iziToast](https://github.com/dolce/iziToast), 
+This is not originally one, i'm just updated the option and re-publish, because the previous publisher unactive.
+
+for see the original see here https://github.com/plauzul/ngx-izitoast
 
 [**izitoast**.marcelodolce.com](http://izitoast.marcelodolce.com)
 
@@ -8,7 +11,7 @@ Elegant, responsive, flexible and lightweight notification plugin implemented fo
 
 ## Install
 ```
-npm install ng2-izitoast --save
+npm install ngx-izitoast --save
 ```
 
 ## Configuration
@@ -30,7 +33,7 @@ in `angular-cli.json` add the script and css lines
 
 in `app.module.ts` add
 ```typescript
-import { Ng2IziToastModule } from 'ng2-izitoast';//<-- this line
+import { NgxIziToastModule } from 'ngx-izitoast';//<-- this line
 
 import { AppComponent } from './app.component';
 
@@ -39,7 +42,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    Ng2IziToastModule//<-- this line
+    NgxIziToastModule//<-- this line
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -51,7 +54,7 @@ now in `app.component.ts` add
 
 ```typescript
 ...
-constructor(public iziToast: Ng2IzitoastService) {}
+constructor(public iziToast: NgxIzitoastService) {}
 ...
 
 ...
@@ -59,7 +62,7 @@ this.iziToast.show({title: "Welcome"});
 ...
 ```
 
-All options applicable to ng2-izitoast
+All options applicable to ngx-izitoast
 
 Argument | Default Value | Description
 :---: | :---: | ---
@@ -106,16 +109,18 @@ Argument | Default Value | Description
 **transitionOut** | *'fadeOut'* | Default toast close animation. It can be: fadeOut, fadeOutUp, fadeOutDown, fadeOutLeft, fadeOutRight, flipOutX
 **transitionInMobile** | *'fadeInUp'* | Default toast opening mobile transition.
 **transitionOutMobile** | *'fadeOutDown'* | Default toast closing mobile transition.
+**inputs** | *function() {}* | You can specify an array of inputs. Example
 **onOpening** | *function() {}* | Callback function triggered when opening the toast.
 **onOpened** | *function() {}* | Callback function triggered when onOpened the toast.
 **onClosing** | *function() {}* | Callback function triggered when closing the toast.
 **onClosed** | *function() {}* | Callback function triggered when closed the toast.
 
+
 ## Examples
 **Question**
 ```typescript
 ...
-constructor(public iziToast: Ng2IzitoastService) {}
+constructor(public iziToast: NgxIzitoastService) {}
 ...
 
 ...
@@ -132,7 +137,7 @@ this.iziToast.question({
 **Progress**
 ```typescript
 ...
-constructor(public iziToast: Ng2IzitoastService) {}
+constructor(public iziToast: NgxIzitoastService) {}
 ...
 
 ...
@@ -155,7 +160,7 @@ this.iziToast.progress(".foo").start();
 **Hide**
 ```typescript
 ...
-constructor(public iziToast: Ng2IzitoastService) {}
+constructor(public iziToast: NgxIzitoastService) {}
 ...
 
 ...

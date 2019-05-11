@@ -1,4 +1,4 @@
-export declare class Ng2IzitoastModel {
+export declare class NgxIzitoastModel {
     id?: string;
     class?: string;
     title?: string;
@@ -28,7 +28,7 @@ export declare class Ng2IzitoastModel {
     target?: string;
     targetFirst?: boolean;
     toastOnce?: boolean;
-    timeout?: any;
+    timeout?: number | boolean;
     animateInside?: boolean;
     drag?: boolean;
     pauseOnHover?: boolean;

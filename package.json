@@ -1,15 +1,15 @@
 {
-  "name": "ng2-izitoast",
-  "version": "2.0.0",
+  "name": "ngx-izitoast",
+  "version": "1.0.0",
   "description": "Elegant, responsive, flexible and lightweight notification plugin implemented for angular 2 of iziToast",
-  "main": "./bundles/ng2-izitoast.umd.js",
-  "module": "./ng2-izitoast.es5.js",
-  "es2015": "./ng2-izitoast.js",
-  "typings": "./ng2-izitoast.d.ts",
+  "main": "./bundles/ngx-izitoast.umd.js",
+  "module": "./ngx-izitoast.es5.js",
+  "es2015": "./ngx-izitoast.js",
+  "typings": "./ngx-izitoast.d.ts",
   "author": "Paulo Henrique",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/plauzul/ng2-izitoast"
+    "url": "https://github.com/dreamid27/ngx-izitoast"
   },
   "engines": {
     "node": ">= 6.9.0",
